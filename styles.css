@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   font-size: 10px;
+   height: 100vh;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   justify-content: center;
+   align-items: center;
+   background: rgb(0 0 0 / 80%)
+}
+
+.weather i {
+    font-size: 5rem;
+    text-align: center;
+    padding: 1rem;
+}
+img {
+    max-width: 70%;
+    padding-bottom: .5em;
+}
+
+.container {
+    padding: 1rem;
+    border: 2px solid rgb(255 255 255 / 20%);
+    border-radius: 2rem;
+}
+
+.card {
+    text-align: center;
+    padding: 3rem 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    opacity: .79;
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+.card .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card input {
+    max-width: 100%;
+    border: none;
+    outline: none;
+    height: 2rem;
+    flex: 1;
+    padding: 1rem 1rem;
+    font-size: .9rem;
+    height: 2.5rem;
+    margin-right: .6rem;
+    border-radius: 1rem;
+}
+
+.card button {
+    outline: none;
+    border: none;
+    padding: .5rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    color: rgb(0 0 0 / 50%);
+    border-radius: 45%;
+}
+
+.card button:active {
+    padding: .6rem;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%), 2px 2px 10px rgb(0 0 0 / 50%);
+}
+
+
+.weather > h1 {
+    font-size: 3em;
+    background: transparent;
+}
+
+.weather {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+
+.details {
+    display: grid;
+    margin-top: 4rem;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+}
+
+.box {
+    display: flex;
+    font-size: .8rem;
+    justify-content: center;
+    align-items: center;
+    line-height: 7px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.box img {
+    max-width: 25%;
+    display: block;
+    margin-right: 1rem;
+}
